@@ -1,0 +1,5 @@
+page,view,text{
+  font-size: 30rpx;
+  margin: 0;
+  padding: 0;
+}

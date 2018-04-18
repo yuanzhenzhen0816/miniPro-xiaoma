@@ -1,0 +1,8 @@
+var foo="开始使用"
+var bar=function(d){
+  return d
+}
+module.exports={
+  foo:foo,
+  bar:bar
+}

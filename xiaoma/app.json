@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/usecar/usecar",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/realname/realname",
+    "pages/component/footinfo/footinfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小马单车",
+    "navigationBarTextStyle": "black"
+  }
+}

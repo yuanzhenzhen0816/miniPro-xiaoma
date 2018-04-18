@@ -1,0 +1,19 @@
+<view class="map">
+<component-tag-name name="footinfo"></component-tag-name>
+  <map id="mymap"
+   latitude='{{latitude}}' 
+   longitude='{{longitude}}'
+   markers='{{markers}}'
+   show-location>
+   </map>
+  <view class='map_btn'>
+    <button class='suoche'>
+        <image src='../images/suoche1.png' class='icon'></image>
+        <text>临时锁车</text> 
+    </button>
+    <button class='huanche'>
+        <image src='../images/kaisuo1.png' class='icon'></image>
+        <text>临时开启</text> 
+    </button>
+  </view>
+</view>
