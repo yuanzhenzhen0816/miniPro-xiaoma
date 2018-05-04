@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "component-tag-name": "/pages/component/footinfo/footinfo"
+    "car-info": "../component/useinfo/useinfo",
+    "dialog":"../component/dialog/dialog",
+    "tip":"../component/dialog/tip"
   }
 }

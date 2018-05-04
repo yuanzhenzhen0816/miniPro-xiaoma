@@ -1,0 +1,9 @@
+<block>
+    <view class='dialog'>
+      <view class='content'>{{content}}</view>
+      <view class='btn' bindtap='know'>{{btnText}}</view>
+    </view>
+     <view class='dialog-mask'></view> 
+  
+  <slot></slot>
+</block>

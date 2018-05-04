@@ -1,0 +1,29 @@
+<view class='footinfo'>
+  <view class="use_info">
+    <view class='toux'>
+      <image src='../../images/touxiang.png'></image>
+      <text>9856326</text>
+    </view>
+    <view class='xuh'>
+      <text>续航28km</text>
+      <view class='cell'>
+        <view class='active'></view>
+        <view></view>
+        <view></view>
+      </view>
+    </view>
+  </view>
+  <view class='line'></view>
+  <view class='use_content'>
+    <view class='use_time'>
+      <view>用车时长</view>
+      <view>60分钟</view>
+      
+    </view>
+    <view class='pay'>
+      <view>已消费</view>
+      <view class='red'>￥{{sum}}</view>
+    </view> 
+  </view>  
+  <slot></slot> 
+</view>

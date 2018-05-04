@@ -1,0 +1,124 @@
+/* pages/estate/estate.wxss */
+@import '../common/common.wxss';
+.estate_top image{
+	height: 342rpx;
+	margin: 40rpx 0;
+  position: absolute;
+  z-index: 100;
+  }
+.estate_box{
+  position: relative;
+	padding: 25rpx 10rpx;
+  z-index: 105;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.estate_text{ 
+	font-size:26rpx;
+	font-family:PingFangSC-Regular;
+	line-height:37rpx;
+}
+.car_logo image,.car_logo{
+	width: 180rpx;
+	height: 180rpx;
+}
+.number{
+	color:rgba(51,51,51,1);
+}
+.endur{
+	color:rgba(255,255,255,1);
+  text-align: right;
+}
+.endur em{
+	display: inline-block;
+	width: 4rpx;
+	height: 20rpx;
+	background:#9B9B9B;
+	border-radius: 2rpx ; 
+	margin-right: 10rpx
+}
+em.active{
+	background: #F8E71C
+}
+.time{
+	font-size:32rpx;
+	font-family:PingFangSC-Medium;
+	color:rgba(255,255,255,1);
+	line-height:45rpx;
+}
+.estate_center{
+	width: 100%;
+	border-radius: 20rpx;
+	box-shadow: 0px 2px 25px -6px rgba(74,74,74,0.25);
+	padding-top: 10rpx;
+  position: relative;
+  top:100rpx
+}
+.line{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.line span.dian{
+	width: 20rpx;
+	height: 20rpx;
+	border:1px solid #FF7173;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+.line span.dian_active{
+	width: 20rpx;
+	height: 20rpx;
+	background:linear-gradient(180deg,rgba(254,135,137,1),rgba(255,96,98,1));
+	border-radius: 50%;
+}
+.line span.line{
+	width: 270rpx;
+	height: 8rpx;
+	background:#FFE0DF
+}
+.line span.line_active{
+	width: 270rpx;
+	height: 8rpx;
+	background:#FF7173
+}
+.line_text{
+	font-size:28rpx;
+	font-family:PingFangSC-Regular;
+	color:rgba(51,51,51,1);
+	line-height:78rpx;
+	justify-content: space-around;
+}
+.cash{ 
+	font-size:28rpx;
+	font-family:PingFangSC-Regular;
+	color:rgba(51,51,51,1);
+	line-height:60rpx;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	padding-top: 150rpx;
+	padding-bottom: 15rpx
+}
+.cash span{
+	color: #FF7173;
+	font-size: 48rpx;
+}
+.line_text span:nth-child(1){
+  margin-left: 6rpx
+}
+.line_text span:nth-child(2){
+  margin-left: 160rpx
+}
+.line_text span:nth-child(3){
+  margin-left: 112rpx
+}
+.cash .cash_tip{
+	font-size:24rpx;
+	font-family:PingFangSC-Regular;
+	color:rgba(153,153,153,1);
+}
+.pay{
+	color: #fff
+}

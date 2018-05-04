@@ -1,0 +1,32 @@
+<div class="estate_top">
+  <image src='../images/kapian.png'></image> 
+  <div class="estate_box">
+    <view class="car_logo">
+      <image src='../images/touxiang.png'></image>
+    </view>
+    <text class="time">¥40.00/小时</text>
+  </div>
+  <div class="estate_box">
+    <span class="estate_text number">编号：9876543</span>
+    <view class="estate_text endur">续航28km<view><em class="active"></em><em class="active"></em><em></em><em></em><em></em></view></view>
+  </div>
+</div>
+<div class="estate_center">
+  <div class="line">
+    <span class="dian_active"></span>
+    <span class="line_active"></span>
+    <span class="dian"></span>
+    <span class="line"></span>
+    <span class="dian"></span>
+  </div>
+  <div class="line line_text">
+    <span>预付金</span>
+    <span class="gray">开始用车</span>
+    <span class="gray">还车退还余额</span>
+  </div>
+  <div class="cash">
+    <p>押金<span>¥299.00</span></p>
+    <p class="cash_tip">用车费用会自动从中扣除，结束后立即退还余额</p>
+  </div>
+</div>
+<view class="btn-bottom">支付并确认用车</view>

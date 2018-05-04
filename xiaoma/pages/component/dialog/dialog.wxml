@@ -1,0 +1,14 @@
+      
+
+  <view>
+    <view class='dialog'>
+      <view class='content'>{{content}}</view>
+      <view class='btn2' bindtap='ensure'>确定</view>
+      <view class='btn2 cancel' bindtap='cancel'>取消</view>
+    </view>     
+    <view class='dialog-mask'></view>
+  
+    <slot></slot>
+  </view>  
+
+

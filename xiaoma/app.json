@@ -1,10 +1,13 @@
 {
   "pages": [
     "pages/usecar/usecar",
+    "pages/component/dialog/tip",
+    "pages/component/dialog/dialog",
+    "pages/estate/estate",
     "pages/index/index",
-    "pages/logs/logs",
     "pages/realname/realname",
-    "pages/component/footinfo/footinfo"
+    "pages/component/useinfo/useinfo",
+    "pages/scan/scan"
   ],
   "window": {
     "backgroundTextStyle": "light",

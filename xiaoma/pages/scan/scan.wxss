@@ -1,0 +1,42 @@
+.scantext{
+	font-size:0.20rem;
+	font-family:PingFangSC-Regular;
+	color:#666;
+}
+.scanimg{
+	width: 2.48rem;
+	height: 1.9rem
+}
+.scantip{
+	display: flex;
+	align-items:center;
+	justify-content:space-around;
+	margin:1.2rem auto;
+}
+.red{
+	color: #FF7173
+}
+.gray{
+	color: #999
+}
+.scancode,.pay{
+	width:100%;
+	height:0.98rem; 
+	background:rgba(255,113,115,1);
+	border: none;
+	position: fixed;
+	bottom: 0;
+}
+.icon-sao{
+	width: 0.32rem;
+	height: 0.32rem;
+	margin-right: 0.2rem
+}
+.scancode{ 
+	font-size:0.32rem;
+	font-family:PingFangSC-Regular;
+	color:rgba(255,255,255,1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

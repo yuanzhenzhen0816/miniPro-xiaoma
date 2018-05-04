@@ -3,3 +3,23 @@ page,view,text{
   margin: 0;
   padding: 0;
 }
+.btn-bottom{
+  background: #FF7173;
+  width: 100%;
+  line-height: 100rpx;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  z-index: 100;
+  bottom: 0
+}
+.huanc{
+  background: #FF7173;
+  width: 100%;
+  line-height: 100rpx;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  z-index: 400;
+  bottom: 0
+}

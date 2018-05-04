@@ -1,19 +1,30 @@
+
 <view class="map">
-<component-tag-name name="footinfo"></component-tag-name>
-  <map id="mymap"
+  <car-info bindmyevent='onMyevent'>
+    <slot></slot>
+  </car-info>
+  <map id="mymap" class="mymap"
    latitude='{{latitude}}' 
    longitude='{{longitude}}'
    markers='{{markers}}'
+   controls="{{controls}}
    show-location>
-   </map>
+   </map> 
   <view class='map_btn'>
-    <button class='suoche'>
+    <view class='suoche' bindtap='suoche'>
         <image src='../images/suoche1.png' class='icon'></image>
         <text>临时锁车</text> 
-    </button>
-    <button class='huanche'>
+    </view>
+    <view class='huanche'>
         <image src='../images/kaisuo1.png' class='icon'></image>
         <text>临时开启</text> 
-    </button>
+    </view>
   </view>
+    <view class='huanc' bindtap='returnCar'>还车</view>
+    <dialog wx:if="{{isShow}}" bindensure="ensureListener" bindcancel="cancelListener">
+      <slot></slot>
+    </dialog>
+    <tip wx:if="{{isShowTip}}" btn-text="{{btnText}}" content="{{contentTip}}" bindknow="myeventlistener">
+      <slot></slot>
+    </tip>
 </view>
