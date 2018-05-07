@@ -1,0 +1,152 @@
+div,p{
+  display: block
+}
+.location{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin:0 30rpx;
+	border-bottom: 1rpx solid #E6E6E6;
+	padding: 25rpx 0;
+}
+.location span{
+	font-size:22rpx;
+	font-family:PingFangSC-Regular;
+	color:rgba(153,153,153,1);
+	line-height:30rpx;
+}
+.location span>p{
+	font-size:28rpx;
+	font-family:PingFangSC-Regular;
+	color:rgba(51,51,51,1);
+	line-height:40rpx;
+  display: block
+}
+.location image{
+	width: 50rpx;
+	height: 50rpx
+}
+.order_info{
+	margin:70rpx;
+	
+}
+.order_jour{
+	background:rgba(255,255,255,1);
+	 box-shadow: 0 2rpx 25rpx -6rpx rgba(74,74,74,0.25); 
+	border-radius: 8rpx ; 
+}
+.order_title{
+	display: flex;
+	align-items: center;
+	width:100%;
+	background:linear-gradient(-90deg,rgba(255,116,118,1),rgba(255,102,105,1));
+	border-radius: 8rpx 8rpx 0rpx 0rpx ; 
+}
+.order_title span{
+	font-size:30rpx;
+	font-family:PingFangSC-Medium;
+	color:rgba(255,255,255,1);
+	padding: 25rpx;
+	line-height: 42rpx;
+}
+.order_carphoto{
+	width: 178rpx;
+	height: 120rpx;
+	margin-top: 54rpx;
+	margin-left: 54rpx;
+	margin-bottom: 44rpx
+}
+.bill{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	padding-bottom: 90rpx;
+}
+.bill_time{
+	text-align: center;
+}
+.min,.money{	
+	font-size:40rpx;
+	font-family:PingFangSC-Medium;
+	color:rgba(51,51,51,1);
+	line-height:56rpx;
+	padding-left:0;
+	vertical-align:middle;
+	display:inline-block;
+	float: none;
+}
+.bill image{
+	width: 48rpx;
+	height: 57rpx;
+	margin-right: 15rpx;
+	padding-left:0;
+	vertical-align:middle;
+	display:inline-block;
+	float: none;
+}
+.bill p{
+  display: block;
+	font-size:24rpx;
+	font-family:PingFangSC-Regular;
+	color:rgba(141,141,141,1);
+	line-height:33rpx;
+}
+
+.bill_line{
+	width: 3rpx;
+	height: 1rpx;
+	background:#E6E6E6
+}
+.return_jine{ 
+	font-size:24rpx;
+	font-family:PingFangSC-Regular;
+	color:rgba(153,153,153,1);
+	line-height:33rpx;
+	text-align: center;
+  display: block
+}
+.track-list{ 
+  position: relative;
+  display: block;
+  margin-left: 30rpx;
+}
+	.track-list li{
+    position: relative; 
+    /* padding: 9rpx 0 0 25rpx;  */
+    line-height: 18px; 
+    border-left: 1rpx solid #d9d9d9; 
+    color: #666;
+    }
+	.track-list li.first{color:#666; padding-top: 0; border-left-color:#fff;}
+	.track-list li.first .node-icon image{
+		position: absolute; 
+		left: -6rpx;
+		top: 170%;  
+		width: 11rpx;
+		height:11rpx;
+	}
+  .track-list li .node-icon image{
+    position: absolute; 
+		left: -6rpx;
+		top: 106%;  
+		width: 11rpx;
+		height:11rpx; 
+  }
+	.track-list li .time{
+    font-size: 30rpx;
+    margin-right: 20px; 
+    position: relative;
+    top: 4px; 
+    display: inline-block; 
+    vertical-align: middle;
+  }
+	.track-list li .txt{ 
+    font-size: 30rpx;max-width: 600px; position: relative; top: 4px; display: block;
+  }
+	.track-list li.first .time{
+		margin-right: 20px;
+		color: #666;
+	}
+	.track-list li.first .txt{
+    max-width: 600px; 
+  }

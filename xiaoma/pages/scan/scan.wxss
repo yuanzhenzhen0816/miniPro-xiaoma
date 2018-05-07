@@ -1,17 +1,27 @@
+@import '../common/common.wxss';
+page{
+  overflow: hidden;
+}
 .scantext{
-	font-size:0.20rem;
+	font-size:30rpx;
 	font-family:PingFangSC-Regular;
 	color:#666;
+  display: block
+}
+.h3,.h4{
+  display: block;
+  font-size: 32rpx;
 }
 .scanimg{
-	width: 2.48rem;
-	height: 1.9rem
+	width: 248rpx;
+	height: 190rpx
 }
 .scantip{
 	display: flex;
 	align-items:center;
 	justify-content:space-around;
-	margin:1.2rem auto;
+	margin:85rpx auto;
+  padding: 10rpx;
 }
 .red{
 	color: #FF7173
@@ -21,19 +31,19 @@
 }
 .scancode,.pay{
 	width:100%;
-	height:0.98rem; 
+	height:98rpx; 
 	background:rgba(255,113,115,1);
 	border: none;
 	position: fixed;
 	bottom: 0;
 }
 .icon-sao{
-	width: 0.32rem;
-	height: 0.32rem;
-	margin-right: 0.2rem
+	width: 32rpx;
+	height: 32rpx;
+	margin-right: 20rpx
 }
 .scancode{ 
-	font-size:0.32rem;
+	font-size:32rpx;
 	font-family:PingFangSC-Regular;
 	color:rgba(255,255,255,1);
 	display: flex;

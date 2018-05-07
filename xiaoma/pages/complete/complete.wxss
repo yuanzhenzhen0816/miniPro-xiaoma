@@ -1,0 +1,59 @@
+/* pages/complete/complete.wxss */
+page{
+  font-size: 30rpx;
+  color: #666;
+  text-align: center
+}
+.cont{
+  display: block;
+  width: 75%; 
+  margin: 0 auto;
+  /* text-align: center; */
+}
+.red{
+  color: #FF7173;
+  font-size: 40rpx;
+  font-weight: 700;
+  margin-bottom: 200rpx;
+  margin-top: 15rpx;
+  display: block;
+  
+}
+.left{
+  float: left;
+}
+.clear{
+  clear: both;
+}
+.shengyu{
+  margin: 30rpx auto;
+  text-align: left;
+}
+.img{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 auto;
+  display: block;
+  margin-top: 150rpx;
+}
+.usetime{
+  float: right;
+  font-size: 30rpx;
+  margin: 0 auto;
+}
+.btnbj{
+	text-align: center;
+	font-size: 30rpx;
+	line-height: 88rpx;
+	color:#FFFFFF;
+	border: none;
+	width:612rpx;
+	height:88rpx; 
+	background:rgba(255,113,115,1);
+	box-shadow: 0rpx 9rpx 35rpx 10rpx rgba(255,113,115,0.36) ;
+	border-radius: 61rpx ; 
+	position: absolute;
+  bottom: 60rpx;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}

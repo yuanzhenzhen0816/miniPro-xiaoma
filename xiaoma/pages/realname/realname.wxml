@@ -1,3 +1,20 @@
-<view>
-    <text>实名认证</text>
-</view>
+<div class="page">
+  <text class="h1">实名认证</text>
+  <div class="formdiv">
+    <span>姓名</span>
+    <input type="text" name="username" confirm-type="done" placeholder="请输入真实姓名"/>
+  </div>
+  <div class="formdiv">
+    <span>身份证号</span><input type="idcard" name="idcode" confirm-type="done" placeholder="请输入真实身份证号"/>
+  </div>
+  <div class="peopleface">
+    <text class="h2">人脸照片(仅用于同身份证进行比对）</text>
+    <div class="picture">
+      <div>
+        <image src="../images/paishe.png"/>
+        <dt>拍摄照片</dt>
+      </div>
+    </div>
+    <button class="usecar btnbj">立即用车</button>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<view>
+ <image class='img' src='../images/wancheng.png'></image>
+ <text class='red'>￥99.00</text>
+ <view class='cont'>
+ 
+ <text class='left'>用车时长:</text><text class="usetime">6分钟</text>
+ <view class='clear'></view>
+ <view class='shengyu'>剩余¥200.00将退回支付账户，请注意查收</view>
+ </view>
+ <button class="usecar btnbj">完成</button>
+</view>

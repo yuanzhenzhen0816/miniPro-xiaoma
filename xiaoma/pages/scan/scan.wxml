@@ -1,16 +1,16 @@
 <div class="page">
-			<text class='h3'>Hello，欢迎使用小马旅行车</text>
-			<text class='h3'>简单三步立即用车</text>
+			<text class='h3 title'>Hello，欢迎使用小马旅行车</text>
+			<text class='h3 title'>简单三步立即用车</text>
 			<div class="scantip">
 				<div>
 					<text class='h4'>1.开始用车</text>
 					<div class="scantext">扫描车身二维码，</div>
 					<div class="scantext"> 预支付299元即可开始</div>
 				</div>
-				<image src="image/saoma.png" class="scanimg "></image>
+				<image src="../images/saoma.png" class="scanimg "></image>
 			</div>
 			<div class="scantip">
-				<image src="image/jifei.png" class="scanimg"></image>
+				<image src="../images/jifei.png" class="scanimg"></image>
 				<div>
 					<text class='h4'>2.用车中计费</text>
 					<div class="scantext">¥<span class="red">40</span>／小时<span class="gray">（不足1小时按一小时收费）</span></div>
@@ -25,11 +25,11 @@
 					<div class="scantext">将车辆归还至取车位置</div>
 					<div class="scantext"> 剩余金额自动退还至支付账号</div>
 				</div>
-				<image src="image/tuifei.png" class="scanimg"></image>	
+				<image src="../images/tuifei.png" class="scanimg"></image>	
 				
 			</div>
 		</div>
-		<button class="scancode">
-			<image src="image/saomayongche.png" class="icon-sao"></image>扫码用车
-		</button>
+		<view class="btn-bottom">
+			<image src="../images/saomayongche.png" class="icon-sao"></image>扫码用车
+		</view>
   

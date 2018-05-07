@@ -1,13 +1,17 @@
 {
   "pages": [
+    "pages/complete/complete",
+    "pages/index/index",
+    "pages/myfoot/myfoot",
+    "pages/order/order",
+    "pages/realname/realname",
+    "pages/scan/scan",
     "pages/usecar/usecar",
     "pages/component/dialog/tip",
     "pages/component/dialog/dialog",
     "pages/estate/estate",
-    "pages/index/index",
-    "pages/realname/realname",
-    "pages/component/useinfo/useinfo",
-    "pages/scan/scan"
+    "pages/component/useinfo/useinfo"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

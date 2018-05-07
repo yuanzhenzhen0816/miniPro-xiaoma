@@ -1,1 +1,117 @@
-/* pages/realname/realname.wxss */
+.page{
+  width: 100%;
+  padding: 20rpx;
+}
+.h1{ 
+	font-size:50rpx;
+	font-family:PingFangSC-Medium;
+	color:rgba(51,51,51,1);
+	line-height:70rpx;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 60rpx;
+  margin-left: 20rpx;
+}
+.h3{
+	font-size:40rpx;
+	font-family:PingFangSC-Medium;
+	color:rgba(51,51,51,1);
+	line-height:56rpx;
+  display: block;
+  
+}
+.h2{
+	font-size:26rpx;
+	font-family:PingFangSC-Regular;
+	color:rgba(51,51,51,1);
+	line-height:37rpx;
+  display: block;
+  padding-left: 20rpx;
+}
+.h4{
+	font-size:28rpx;
+	font-family:PingFangSC-Medium;
+	color:rgba(51,51,51,1);
+	line-height:40rpx;
+	margin-bottom: 16rpx;
+  display: block;
+}
+.formdiv{
+  margin: 0 auto;
+	width: 90%;
+	border-bottom:#B1B1B1 solid 3rpx;
+  display: block;
+  margin-bottom: 60rpx;
+
+}
+.formdiv>span{
+	font-size:40rpx;
+	font-family:PingFangSC-Regular;
+	color:rgba(51,51,51,1);
+	line-height:40rpx;
+	width:190rpx;
+	margin-right:20rpx;
+	display: inline-block;
+}
+.formdiv>input{
+  display: inline-block;
+	height:40rpx; 
+	font-size:30rpx;
+	font-family:PingFangSC-Regular;
+	color:rgba(153,153,153,1);
+	line-height:40rpx;
+
+}
+.peopleface{
+  width: 90%;
+	margin-top: 30rpx;
+  margin-left: 20px;
+}
+
+.picture{
+	width: 322rpx;
+	height: 298rpx;
+	border: #AEAEAE 2rpx dashed;
+	text-align: center;
+	position: relative;
+	margin-top: 37rpx;
+	margin-bottom:130rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  margin-left: 20rpx;
+}
+.picture>div{
+	display: flex;
+	  flex-direction: column;
+	  justify-content: space-between;
+	  align-items: center;
+}
+.picture div>image{
+	width: 60rpx;
+	height: 60rpx;
+	color: #979797;
+	margin-bottom: 30rpx
+}
+.picture dt{
+	font-size: 24rpx;
+	color: #999999;
+	line-height: 33rpx
+}
+.btnbj{
+	text-align: center;
+	font-size: 30rpx;
+	line-height: 88rpx;
+	color:#FFFFFF;
+	border: none;
+	width:612rpx;
+	height:88rpx; 
+	background:rgba(255,113,115,1);
+	box-shadow: 0rpx 9rpx 35rpx 10rpx rgba(255,113,115,0.36) ;
+	border-radius: 61rpx ; 
+	position: relative;
+
+}
+.usecar{
+	margin-top: 130rpx
+}

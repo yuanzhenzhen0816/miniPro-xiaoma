@@ -3,6 +3,9 @@ page,view,text{
   margin: 0;
   padding: 0;
 }
+.title{
+  padding: 10rpx
+}
 .btn-bottom{
   background: #FF7173;
   width: 100%;

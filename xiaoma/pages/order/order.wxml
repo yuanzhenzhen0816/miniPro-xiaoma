@@ -1,0 +1,53 @@
+<div class="order">
+<div class="location">
+  <span style="padding-right: 1rem;">
+    2018-11
+    <p>通州</p>
+  </span>
+  <a href=""><image class="service" src="../images/kefu.png"/></a>
+</div>
+<div class="order_info">
+<div class="order_jour">
+  <div class="order_title">
+    <span>编号: </span>
+  </div>
+  <div class="order_content">
+    <image class="order_carphoto" src="../images/che.png"/>
+    <div class="track-rcol">
+      <div class="track-list">
+        <ul>
+          <li class="first">
+            <i class="node-icon">
+              <image src='../images/liucheng.png'></image>
+            </i>
+            <span class="time">23:00</span>
+            <span class="txt">支付预付金<span class="red">元</span> 开始用车</span>
+          </li>
+          <li>
+            <i class="node-icon">
+              <image src='../images/liucheng.png'></image>
+            </i>
+            <span class="time">11:00</span>
+            <div class="txt">还车成功</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+</div>
+</div>
+<div class="bill">
+  <div class="bill_time">
+    <image src="../images/min.png"/><span class="min"></span>
+    <p>用车时间（min）</p>
+  </div>
+  <span class="bill_line"></span>
+  <div class="bill_time">
+    <image src="../images/jine.png"/><span class="money"></span>
+    <p>用车费用（yuan）</p>
+  </div>
+</div>
+<p class="return_jine">剩余元已退还至支付账户</p>
+
+</div>

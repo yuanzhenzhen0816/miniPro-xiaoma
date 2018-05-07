@@ -3,5 +3,6 @@
     "car-info": "../component/useinfo/useinfo",
     "dialog":"../component/dialog/dialog",
     "tip":"../component/dialog/tip"
-  }
+  },
+  "navigationBarTitleText": "扫码用车"
 }
